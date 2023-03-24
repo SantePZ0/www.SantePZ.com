@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SantePZ - Comentarios y enlaces</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        .comment {
+            background-color: red;
+            color: black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>SantePZ</h1>
+
+    <div class="comment">
+        <h2>Comentarios</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="comment">Comentario:</label><br>
+            <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br><br>
+            <input type="submit" value="Publicar comentario">
+        </form>
+    </div>
+
+    <div>
+        <h2>Enlaces</h2>
+        <ul>
+            <li><a href="https://www.twitch.tv/SantePZ0">Twitch</a></li>
+            <li><a href="https://www.instagram.com/SantePZ">Instagram</a></li>
+            <li><a href="https://www.youtube.com/SantePZ">YouTube</a></li>
+            <li><a href="https://twitter.com/SantePz0">Twitter</a></li>
+        </ul>
+    </div>
+</body>
+</html>
